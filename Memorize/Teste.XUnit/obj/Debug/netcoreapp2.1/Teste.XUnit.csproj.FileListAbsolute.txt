@@ -1,0 +1,15 @@
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Teste.XUnit\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Teste.XUnit\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Teste.XUnit\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Teste.XUnit\bin\Debug\netcoreapp2.1\Teste.XUnit.deps.json
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Teste.XUnit\bin\Debug\netcoreapp2.1\Teste.XUnit.runtimeconfig.json
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Teste.XUnit\bin\Debug\netcoreapp2.1\Teste.XUnit.runtimeconfig.dev.json
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Teste.XUnit\bin\Debug\netcoreapp2.1\Teste.XUnit.dll
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Teste.XUnit\bin\Debug\netcoreapp2.1\Teste.XUnit.pdb
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Teste.XUnit\obj\Debug\netcoreapp2.1\Teste.XUnit.csprojAssemblyReference.cache
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Teste.XUnit\obj\Debug\netcoreapp2.1\Teste.XUnit.csproj.CoreCompileInputs.cache
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Teste.XUnit\obj\Debug\netcoreapp2.1\Teste.XUnit.AssemblyInfoInputs.cache
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Teste.XUnit\obj\Debug\netcoreapp2.1\Teste.XUnit.AssemblyInfo.cs
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Teste.XUnit\obj\Debug\netcoreapp2.1\Teste.XUnit.dll
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Teste.XUnit\obj\Debug\netcoreapp2.1\Teste.XUnit.pdb
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Teste.XUnit\obj\Debug\netcoreapp2.1\Teste.XUnit.genruntimeconfig.cache
