@@ -35,7 +35,7 @@ namespace Infra.Data.Repositorios
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _context.Dispose();
         }
 
         public Sessoes obterStatus()
