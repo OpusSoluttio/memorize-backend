@@ -417,6 +417,9 @@
         }
       },
       "Dominios/1.0.0": {
+        "dependencies": {
+          "Servicos": "1.0.0"
+        },
         "runtime": {
           "Dominios.dll": {}
         },
@@ -430,13 +433,22 @@
           "Microsoft.AspNetCore": "2.1.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "2.1.1",
           "Microsoft.EntityFrameworkCore": "2.1.1",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
+          "Servicos": "1.0.0"
         },
         "runtime": {
           "Infra.Data.dll": {}
         },
         "compile": {
           "Infra.Data.dll": {}
+        }
+      },
+      "Servicos/1.0.0": {
+        "runtime": {
+          "Servicos.dll": {}
+        },
+        "compile": {
+          "Servicos.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3735,6 +3747,11 @@
       "sha512": ""
     },
     "Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Servicos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

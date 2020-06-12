@@ -2676,11 +2676,24 @@
       "Dominios/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Servicos": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Dominios.dll": {}
         },
         "runtime": {
           "bin/placeholder/Dominios.dll": {}
+        }
+      },
+      "Servicos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Servicos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Servicos.dll": {}
         }
       }
     }
@@ -8475,6 +8488,11 @@
       "type": "project",
       "path": "../Dominios/Dominios.csproj",
       "msbuildProject": "../Dominios/Dominios.csproj"
+    },
+    "Servicos/1.0.0": {
+      "type": "project",
+      "path": "../Servicos/Servicos.csproj",
+      "msbuildProject": "../Servicos/Servicos.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8486,7 +8504,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 2.1.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.1",
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.1",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "Servicos >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8517,6 +8536,9 @@
           "projectReferences": {
             "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj": {
               "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj"
+            },
+            "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj": {
+              "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj"
             }
           }
         }

@@ -1,6 +1,7 @@
 ﻿using Dominios.Classes;
 using Dominios.Interfaces;
 using Infra.Data.Contextos;
+using Servicos.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,9 +19,18 @@ namespace Infra.Data.Repositorios
             _context = context;
         }
 
-        public bool criarSessao(int[] SequenciaCorreta)
+        public bool criarSessao(Sessoes SessaoRecebida)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _context.Sessao.Add(SessaoRecebida);
+                _context.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
 
         public bool criarSessao(int Recebido)

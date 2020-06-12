@@ -14,7 +14,8 @@
           "Microsoft.EntityFrameworkCore": "2.1.1",
           "Microsoft.EntityFrameworkCore.Design": "2.1.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
-          "Microsoft.EntityFrameworkCore.Tools": "2.1.1"
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.1",
+          "Servicos": "1.0.0"
         },
         "runtime": {
           "Infra.Data.dll": {}
@@ -1691,8 +1692,16 @@
         }
       },
       "Dominios/1.0.0": {
+        "dependencies": {
+          "Servicos": "1.0.0"
+        },
         "runtime": {
           "Dominios.dll": {}
+        }
+      },
+      "Servicos/1.0.0": {
+        "runtime": {
+          "Servicos.dll": {}
         }
       }
     }
@@ -2866,6 +2875,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "Dominios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Servicos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

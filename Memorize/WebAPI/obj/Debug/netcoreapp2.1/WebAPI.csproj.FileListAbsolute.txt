@@ -20,3 +20,5 @@ C:\Users\Raul\Desktop\OpusSoluttio\Memorize\WebAPI\bin\Debug\netcoreapp2.1\Domin
 C:\Users\Raul\Desktop\OpusSoluttio\Memorize\WebAPI\bin\Debug\netcoreapp2.1\Infra.Data.pdb
 C:\Users\Raul\Desktop\OpusSoluttio\Memorize\WebAPI\obj\Debug\netcoreapp2.1\WebAPI.csproj.CopyComplete
 C:\Users\Raul\Desktop\OpusSoluttio\Memorize\WebAPI\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\WebAPI\bin\Debug\netcoreapp2.1\Servicos.dll
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\WebAPI\bin\Debug\netcoreapp2.1\Servicos.pdb

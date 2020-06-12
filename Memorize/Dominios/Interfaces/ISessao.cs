@@ -1,4 +1,5 @@
 ﻿using Dominios.Classes;
+using Servicos.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,7 +10,7 @@ namespace Dominios.Interfaces
     {
         Sessoes obterStatus();
 
-        bool criarSessao( int[] SequenciaCorreta );
+        bool criarSessao(Sessoes SessaoRecebida);
 
         bool criarSessao(int Recebido);
 

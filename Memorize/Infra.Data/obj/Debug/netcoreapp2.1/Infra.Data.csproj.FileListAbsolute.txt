@@ -13,3 +13,5 @@ C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Infra.Data\obj\Debug\netcoreapp2.1\I
 C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Infra.Data\obj\Debug\netcoreapp2.1\Infra.Data.dll
 C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Infra.Data\obj\Debug\netcoreapp2.1\Infra.Data.pdb
 C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Infra.Data\obj\Debug\netcoreapp2.1\Infra.Data.genruntimeconfig.cache
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Infra.Data\bin\Debug\netcoreapp2.1\Servicos.dll
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Infra.Data\bin\Debug\netcoreapp2.1\Servicos.pdb

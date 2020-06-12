@@ -7,3 +7,6 @@ C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Dominios\obj\Debug\netcoreapp2.1\Dom
 C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Dominios\obj\Debug\netcoreapp2.1\Dominios.AssemblyInfo.cs
 C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Dominios\obj\Debug\netcoreapp2.1\Dominios.dll
 C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Dominios\obj\Debug\netcoreapp2.1\Dominios.pdb
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Dominios\bin\Debug\netcoreapp2.1\Servicos.dll
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Dominios\bin\Debug\netcoreapp2.1\Servicos.pdb
+C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Dominios\obj\Debug\netcoreapp2.1\Dominios.csproj.CopyComplete
