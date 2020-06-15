@@ -53,12 +53,28 @@ namespace WebAPI.Controllers
                 else BadRequest();
             }
 
-            catch (Exception)
+            catch (Exception ex)
             {
                 return BadRequest();
                 throw;
             }
-            return BadRequest();
+            return BadRequest(new { sucesso = false, mensagem = ex.Message });
+        }
+
+
+        [HttpGet]
+        public IActionResult ObterStatus()
+        {
+            try
+            {
+                var sessao = _sessaoRepositorio.obterStatus();
+                if (sessao == null) return BadRequest(new { sucesso = false, mensagem = "Não existe uma sessão" });
+                return Ok(sessao);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { sucesso = false, mensagem = ex.Message });
+            }
         }
 
     }

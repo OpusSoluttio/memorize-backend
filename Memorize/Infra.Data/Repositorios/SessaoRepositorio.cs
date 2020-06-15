@@ -4,6 +4,7 @@ using Infra.Data.Contextos;
 using Servicos.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Infra.Data.Repositorios
@@ -19,6 +20,7 @@ namespace Infra.Data.Repositorios
             _context = context;
         }
 
+
         public bool criarSessao(Sessoes SessaoRecebida)
         {
             try
@@ -32,8 +34,64 @@ namespace Infra.Data.Repositorios
                 return false;
             }
         }
+        public ObterStatusViewModel obterStatus()
+        {
+            try
+            {
+                var Lista = _context.Sessao.ToList();
+                Sessoes sessaoRetornar = new Sessoes();
 
-        public bool criarSessao(int Recebido)
+                if(Lista.Count == 0)
+                {
+                    return null;
+                }
+
+                foreach (var item in Lista)
+                {
+                    sessaoRetornar = item;
+                }
+
+                var sequenciaCorretaSeparada = sessaoRetornar.SequenciaCorreta.Split(";");
+
+                int[] sequenciaCorreta = new int[sequenciaCorretaSeparada.Length];
+
+                for (int i = 0; i < sequenciaCorretaSeparada.Length; i++)
+                {
+                    sequenciaCorreta[i] = (int.Parse(sequenciaCorretaSeparada[i]));
+                }
+
+                var SequenciaRecebidaSeparada = sessaoRetornar.SequenciaRecebida.Split(";");
+
+                int[] sequenciaRecebida = new int[SequenciaRecebidaSeparada.Length];
+
+                if (sessaoRetornar.SequenciaRecebida.Length > 0 )
+                {
+                    for (int i = 0; i < SequenciaRecebidaSeparada.Length; i++)
+                    {
+                        sequenciaRecebida[i] = (int.Parse(SequenciaRecebidaSeparada[i]));
+                    }
+                }
+
+                ObterStatusViewModel sessao = new ObterStatusViewModel()
+                {
+                    Id = sessaoRetornar.Id,
+                    Fase = sessaoRetornar.Fase,
+                    SequenciaCorreta = sequenciaCorreta,
+                    SequenciaRecebida = sequenciaRecebida,
+                    Errou = sessaoRetornar.Errou,
+                    PassarDeFase = sessaoRetornar.PassarDeFase
+                };
+
+                return sessao;
+                    
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+
+        public bool adicionarNaSequencia(int Recebido)
         {
             throw new NotImplementedException();
         }
@@ -48,9 +106,5 @@ namespace Infra.Data.Repositorios
             _context.Dispose();
         }
 
-        public Sessoes obterStatus()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

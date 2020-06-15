@@ -8,11 +8,11 @@ namespace Dominios.Interfaces
 {
     public interface ISessao
     {
-        Sessoes obterStatus();
+        ObterStatusViewModel obterStatus();
 
         bool criarSessao(Sessoes SessaoRecebida);
 
-        bool criarSessao(int Recebido);
+        bool adicionarNaSequencia(int Recebido);
 
         bool deletarSessao();
 
