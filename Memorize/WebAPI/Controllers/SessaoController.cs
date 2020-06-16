@@ -55,10 +55,11 @@ namespace WebAPI.Controllers
 
             catch (Exception ex)
             {
-                return BadRequest();
-                throw;
+                return BadRequest(new { sucesso = false, mensagem = ex.Message });
+             
             }
-            return BadRequest(new { sucesso = false, mensagem = ex.Message });
+            return BadRequest(new { sucesso = false, mensagem = "ocorreu um erro inesperado" });
+
         }
 
 
@@ -75,6 +76,27 @@ namespace WebAPI.Controllers
             {
                 return BadRequest(new { sucesso = false, mensagem = ex.Message });
             }
+        }
+
+
+        [HttpPut]
+        public IActionResult AdicionarNaSequencia(AdicionarNaSequenciaViewModel adicionarNaSequencia)
+        {
+            if (adicionarNaSequencia.Senha != "danieu lindo") return Unauthorized();
+
+            try
+            {
+
+                var resultado = _sessaoRepositorio.adicionarNaSequencia(adicionarNaSequencia.NumeroAdicionar);
+                if (resultado == true) return Ok();
+                else return BadRequest();
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(new { sucesso = false, mensagem = ex.Message });
+            }
+
         }
 
     }

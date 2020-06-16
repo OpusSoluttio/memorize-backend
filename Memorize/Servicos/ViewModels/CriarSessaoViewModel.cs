@@ -7,10 +7,10 @@ namespace Servicos.ViewModels
 {
     public class CriarSessaoViewModel
     {
-        [Required]
+        [Required(ErrorMessage = "Informe o número da fase")]
         public int Fase { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Informe o array com a sequencia correta")]
         public int[] SequenciaCorreta { get; set; }
 
     }

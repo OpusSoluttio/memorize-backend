@@ -34,6 +34,7 @@ namespace Infra.Data.Repositorios
                 return false;
             }
         }
+        
         public ObterStatusViewModel obterStatus()
         {
             try
@@ -93,7 +94,42 @@ namespace Infra.Data.Repositorios
 
         public bool adicionarNaSequencia(int Recebido)
         {
-            throw new NotImplementedException();
+            var Lista = _context.Sessao.ToList();
+            Sessoes sessaoRetornar = new Sessoes();
+
+            if (Lista.Count == 0)
+            {
+                return false;
+            }
+
+            foreach (var item in Lista)
+            {
+                sessaoRetornar = item;
+            }
+            try
+            {
+                if (sessaoRetornar.SequenciaRecebida.Length == 0) sessaoRetornar.SequenciaRecebida += $"{Recebido}";
+
+                else sessaoRetornar.SequenciaRecebida += $";{Recebido}";
+
+                var sequenciaRecebidaSeparada = sessaoRetornar.SequenciaRecebida.Split(";");
+                var sequenciaCorretaSeparada = sessaoRetornar.SequenciaCorreta.Split(";");
+
+                for (int i = 0; i < sequenciaRecebidaSeparada.Length; i++)
+                {
+                    if (sequenciaRecebidaSeparada[i] != sequenciaCorretaSeparada[i]) sessaoRetornar.Errou = true;
+                }
+
+                _context.Sessao.Update(sessaoRetornar);
+                _context.SaveChanges();
+
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            
         }
 
         public bool deletarSessao()
