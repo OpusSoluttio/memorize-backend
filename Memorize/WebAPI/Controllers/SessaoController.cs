@@ -84,20 +84,41 @@ namespace WebAPI.Controllers
         {
             if (adicionarNaSequencia.Senha != "danieu lindo") return Unauthorized();
 
+            if(_sessaoRepositorio.existeSessao() == false) return BadRequest(new { sucesso = false, mensagem = "Não existe uma sessão" });
+
             try
             {
-
                 var resultado = _sessaoRepositorio.adicionarNaSequencia(adicionarNaSequencia.NumeroAdicionar);
                 if (resultado == true) return Ok();
                 else return BadRequest();
             }
             catch (Exception ex)
             {
-
                 return BadRequest(new { sucesso = false, mensagem = ex.Message });
             }
-
         }
+
+        [HttpDelete]
+        public IActionResult DeletarSessao(DeletarSessaoViewModel deletarSessao)
+        {
+
+            if (deletarSessao.Senha != "memorizeDelete") return Unauthorized();
+
+            var sessao = _sessaoRepositorio.obterStatus();
+            if (sessao == null) return BadRequest(new { sucesso = false, mensagem = "Não existe uma sessão" });
+
+            try
+            {
+                var resultado = _sessaoRepositorio.deletarSessao(sessao.Id);
+                if (resultado == true) return Ok();
+                else return BadRequest();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { sucesso = false, mensagem = ex.Message });
+            }
+        }
+
 
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SX7VIG3CJOYhNBogZEN43rFD7fCO4KRF6T1UGL2a+prijJabHR7LVvkF/V0OiPTtxEWdbU+TJ+bLLn6EZBX+Dg==",
+  "dgSpecHash": "kA7/WWPB6k+gQcmPNvIuIpECEmbprd5W8BZwOhYjD0thOVKRbUt2qV60rp+lfvKkAR2ggyh78Aqz+Eg/Bp3PmA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,9 @@
     "C:\\Users\\Raul\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
     "C:\\Users\\Raul\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
     "C:\\Users\\Raul\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
-    "C:\\Users\\Raul\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Raul\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Raul\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\Raul\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }

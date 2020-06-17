@@ -14,7 +14,9 @@ namespace Dominios.Interfaces
 
         bool adicionarNaSequencia(int Recebido);
 
-        bool deletarSessao();
+        bool deletarSessao(int id);
+
+        bool existeSessao();
 
     }
 }

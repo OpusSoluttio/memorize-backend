@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YYK/x5GpeJJ03AD/JEIdCS1GRHQRoS7AqC4BV2n82difgOEAQjAIk7POod/eesoHwmgaPCUzZGuj/2TAOCQ1tg==",
+  "dgSpecHash": "XoD/gbKZrENf3yXjILNb6AneDxaRnr4eXeGX/Jyb4ex1VyeBpTXLsc+nnWWWs/mt8yydcPqgA09cY5ac85sX3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -302,7 +302,9 @@
     "C:\\Users\\Raul\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Raul\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\Raul\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\Raul\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Raul\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Raul\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\Raul\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -20,6 +20,17 @@ namespace Infra.Data.Repositorios
             _context = context;
         }
 
+        public bool existeSessao()
+        {
+            var Lista = _context.Sessao.ToList();
+            Sessoes sessaoRetornar = new Sessoes();
+
+            if (Lista.Count == 0)
+            {
+                return false;
+            }
+            return true;
+        }
 
         public bool criarSessao(Sessoes SessaoRecebida)
         {
@@ -132,9 +143,18 @@ namespace Infra.Data.Repositorios
             
         }
 
-        public bool deletarSessao()
+        public bool deletarSessao(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _context.Sessao.Remove(_context.Sessao.Find(id));
+                _context.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
 
         public void Dispose()

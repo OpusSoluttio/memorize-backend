@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eVZ6vFMESTQkaCAHf4xnlHWz9ZZQ+wwyeqeBbTkt0WI37l/OzWd/SI3DVrh5st6/oQs7Mi5qbLXvgPFhyRtnEg==",
+  "dgSpecHash": "1HDz/CH4ljcLl/S65Qlx1OSlNnTFs2wc4/fHhdEP4tw53dT4LU1RKUSMWZtcXRdR0Gki6ZRyqTtIKE8CI9fDAQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj",
   "expectedPackageFiles": [
@@ -176,7 +176,9 @@
     "C:\\Users\\Raul\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Raul\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Raul\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Raul\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Raul\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Raul\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\Raul\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }
