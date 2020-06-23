@@ -22,6 +22,11 @@ namespace WebAPI.Controllers
             _sessaoRepositorio = sessaoRepositorio;
         }
 
+        /// <summary>
+        /// Cria sessão
+        /// </summary>
+        /// <param name="sessao">Recebe o número da fase e a sequencia correta</param>
+        /// <returns>Retorna Ok se conseguir criar ou bad request caso haja algum erro</returns>
         [HttpPost]
         public IActionResult CriarSessao(CriarSessaoViewModel sessao)
         {
@@ -63,6 +68,10 @@ namespace WebAPI.Controllers
         }
 
 
+        /// <summary>
+        /// Obter Status da Sessao Iniciada
+        /// </summary>
+        /// <returns>Retorna as informações da sessão iniciada caso tudo ocorra corretamente, caso não, retorna erro</returns>
         [HttpGet]
         public IActionResult ObterStatus()
         {
@@ -79,6 +88,11 @@ namespace WebAPI.Controllers
         }
 
 
+        /// <summary>
+        /// Adiciona o número recebido na sequência
+        /// </summary>
+        /// <param name="adicionarNaSequencia">Recebe o número para adicionar na sequência e uma senha</param>
+        /// <returns>Retorna Ok em caso de sucesso ou Bad Request em caso de erro</returns>
         [HttpPut]
         public IActionResult AdicionarNaSequencia(AdicionarNaSequenciaViewModel adicionarNaSequencia)
         {
@@ -98,6 +112,11 @@ namespace WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Deleta a Sessão registrada no banco de dados
+        /// </summary>
+        /// <param name="deletarSessao">Recebe a senha</param>
+        /// <returns>Retorna Ok em caso de sucesso ou Bad Request em caso de erro</returns>
         [HttpDelete]
         public IActionResult DeletarSessao(DeletarSessaoViewModel deletarSessao)
         {
