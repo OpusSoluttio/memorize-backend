@@ -24,7 +24,7 @@ namespace Infra.Data.Contextos
             //Verifica se o contexto já não esta configurado, caso não eseja utiliza a string de conexão abaixo
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=DESKTOP-7L7DFBU\\SQLEXPRESS;Initial Catalog=Memo_Rize;Integrated Security=True");
+                optionsBuilder.UseSqlServer("Data Source=ruindows\\SQLEXPRESS;Initial Catalog=Memo_Rize;Integrated Security=True");
             }
 
             base.OnConfiguring(optionsBuilder);
