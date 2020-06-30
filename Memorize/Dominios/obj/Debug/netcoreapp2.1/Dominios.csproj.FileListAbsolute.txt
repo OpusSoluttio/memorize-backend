@@ -10,3 +10,15 @@ C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Dominios\obj\Debug\netcoreapp2.1\Dom
 C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Dominios\bin\Debug\netcoreapp2.1\Servicos.dll
 C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Dominios\bin\Debug\netcoreapp2.1\Servicos.pdb
 C:\Users\Raul\Desktop\OpusSoluttio\Memorize\Dominios\obj\Debug\netcoreapp2.1\Dominios.csproj.CopyComplete
+C:\Users\opussoluttio\Desktop\Memorize-BackEnd-master\Memorize\Dominios\bin\Debug\netcoreapp2.1\Dominios.deps.json
+C:\Users\opussoluttio\Desktop\Memorize-BackEnd-master\Memorize\Dominios\bin\Debug\netcoreapp2.1\Dominios.dll
+C:\Users\opussoluttio\Desktop\Memorize-BackEnd-master\Memorize\Dominios\bin\Debug\netcoreapp2.1\Dominios.pdb
+C:\Users\opussoluttio\Desktop\Memorize-BackEnd-master\Memorize\Dominios\bin\Debug\netcoreapp2.1\Servicos.dll
+C:\Users\opussoluttio\Desktop\Memorize-BackEnd-master\Memorize\Dominios\bin\Debug\netcoreapp2.1\Servicos.pdb
+C:\Users\opussoluttio\Desktop\Memorize-BackEnd-master\Memorize\Dominios\obj\Debug\netcoreapp2.1\Dominios.csprojAssemblyReference.cache
+C:\Users\opussoluttio\Desktop\Memorize-BackEnd-master\Memorize\Dominios\obj\Debug\netcoreapp2.1\Dominios.AssemblyInfoInputs.cache
+C:\Users\opussoluttio\Desktop\Memorize-BackEnd-master\Memorize\Dominios\obj\Debug\netcoreapp2.1\Dominios.AssemblyInfo.cs
+C:\Users\opussoluttio\Desktop\Memorize-BackEnd-master\Memorize\Dominios\obj\Debug\netcoreapp2.1\Dominios.csproj.CoreCompileInputs.cache
+C:\Users\opussoluttio\Desktop\Memorize-BackEnd-master\Memorize\Dominios\obj\Debug\netcoreapp2.1\Dominios.csproj.CopyComplete
+C:\Users\opussoluttio\Desktop\Memorize-BackEnd-master\Memorize\Dominios\obj\Debug\netcoreapp2.1\Dominios.dll
+C:\Users\opussoluttio\Desktop\Memorize-BackEnd-master\Memorize\Dominios\obj\Debug\netcoreapp2.1\Dominios.pdb

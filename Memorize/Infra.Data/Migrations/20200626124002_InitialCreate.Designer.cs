@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infra.Data.Migrations
 {
     [DbContext(typeof(MemoRizeContext))]
-    [Migration("20200610120516_Criação Inicial")]
-    partial class CriaçãoInicial
+    [Migration("20200626124002_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
