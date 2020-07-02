@@ -15,7 +15,7 @@ namespace Servicos.ViewModels
         public int NovaFase { get; set; }
 
         [Required(ErrorMessage = "Informe o Id da sessao")]
-        public int Fase { get; set; }
+        public int Id { get; set; }
 
     }
 }

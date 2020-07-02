@@ -171,11 +171,15 @@ namespace Infra.Data.Repositorios
                         SequenciaGerada += ";";
                     }
                 };
+                var a = SequenciaGerada;
 
-                var Registrado = _context.Sessao.Find(passarFase);
+                var Registrado = new Sessoes();
+                Registrado = _context.Sessao.Find(passarFase.Id);
+
                 Registrado.PassarDeFase = false;
                 Registrado.SequenciaCorreta = SequenciaGerada;
                 Registrado.SequenciaRecebida = "";
+                Registrado.Fase = passarFase.NovaFase;
 
                 _context.Sessao.Update(Registrado);
                 _context.SaveChanges();
@@ -190,24 +194,11 @@ namespace Infra.Data.Repositorios
                     sequenciaCorreta[i] = (int.Parse(sequenciaCorretaSeparada[i]));
                 }
 
-                var SequenciaRecebidaSeparada = Registrado.SequenciaRecebida.Split(";");
-
-                int[] sequenciaRecebida = new int[SequenciaRecebidaSeparada.Length];
-
-                if (Registrado.SequenciaRecebida.Length > 0)
-                {
-                    for (int i = 0; i < SequenciaRecebidaSeparada.Length; i++)
-                    {
-                        sequenciaRecebida[i] = (int.Parse(SequenciaRecebidaSeparada[i]));
-                    }
-                }
-
                 ObterStatusViewModel sessao = new ObterStatusViewModel()
                 {
                     Id = Registrado.Id,
                     Fase = Registrado.Fase,
                     SequenciaCorreta = sequenciaCorreta,
-                    SequenciaRecebida = sequenciaRecebida,
                     Errou = Registrado.Errou,
                     PassarDeFase = Registrado.PassarDeFase
                 };

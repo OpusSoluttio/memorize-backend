@@ -142,21 +142,18 @@ namespace WebAPI.Controllers
         [Route("passarfase")]
         public IActionResult PassarFase(PassarFaseViewModel passarFase)
         {
+            var a = passarFase;
             if (_sessaoRepositorio.existeSessao() == false) return BadRequest(new { sucesso = false, mensagem = "Não existe uma sessão" });
-
 
             try
             {
-                
-                return Ok(_sessaoRepositorio.passarFase(passarFase));
-
+                var sessao = _sessaoRepositorio.passarFase(passarFase);
+                return Ok(sessao);
             }
             catch (Exception ex)
             {
                 return BadRequest(new { sucesso = false, mensagem = ex.Message });
-
             }
-
         }
 
     }
