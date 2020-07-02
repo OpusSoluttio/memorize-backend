@@ -96,7 +96,7 @@ namespace WebAPI.Controllers
         [HttpPut]
         public IActionResult AdicionarNaSequencia(AdicionarNaSequenciaViewModel adicionarNaSequencia)
         {
-            if (adicionarNaSequencia.Senha != "danieu lindo") return Unauthorized();
+            if (adicionarNaSequencia.Senha != "memorizeAdd") return Unauthorized();
 
             if(_sessaoRepositorio.existeSessao() == false) return BadRequest(new { sucesso = false, mensagem = "Não existe uma sessão" });
 
@@ -138,6 +138,26 @@ namespace WebAPI.Controllers
             }
         }
 
+        [HttpPut]
+        [Route("passarfase")]
+        public IActionResult PassarFase(PassarFaseViewModel passarFase)
+        {
+            if (_sessaoRepositorio.existeSessao() == false) return BadRequest(new { sucesso = false, mensagem = "Não existe uma sessão" });
+
+
+            try
+            {
+                
+                return Ok(_sessaoRepositorio.passarFase(passarFase));
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { sucesso = false, mensagem = ex.Message });
+
+            }
+
+        }
 
     }
 }

@@ -41,5 +41,10 @@ namespace Dominios.Interfaces
         /// <returns>Retorna Ok em caso de sucesso ou Bad Request em caso de erro</returns>
         bool existeSessao();
 
+
+        ObterStatusViewModel passarFase(PassarFaseViewModel passarFase);
+
+
+
     }
 }

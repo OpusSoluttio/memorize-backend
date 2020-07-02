@@ -157,6 +157,71 @@ namespace Infra.Data.Repositorios
             }
         }
 
+        public ObterStatusViewModel passarFase(PassarFaseViewModel passarFase)
+        {
+            try
+            {
+                string SequenciaGerada = "";
+                for (int i = 0; i < passarFase.NovaSequencia.Length; i++)
+                {
+
+                    SequenciaGerada += passarFase.NovaSequencia[i];
+                    if (passarFase.NovaSequencia.Length - 1 != i)
+                    {
+                        SequenciaGerada += ";";
+                    }
+                };
+
+                var Registrado = _context.Sessao.Find(passarFase);
+                Registrado.PassarDeFase = false;
+                Registrado.SequenciaCorreta = SequenciaGerada;
+                Registrado.SequenciaRecebida = "";
+
+                _context.Sessao.Update(Registrado);
+                _context.SaveChanges();
+
+
+                var sequenciaCorretaSeparada = Registrado.SequenciaCorreta.Split(";");
+
+                int[] sequenciaCorreta = new int[sequenciaCorretaSeparada.Length];
+
+                for (int i = 0; i < sequenciaCorretaSeparada.Length; i++)
+                {
+                    sequenciaCorreta[i] = (int.Parse(sequenciaCorretaSeparada[i]));
+                }
+
+                var SequenciaRecebidaSeparada = Registrado.SequenciaRecebida.Split(";");
+
+                int[] sequenciaRecebida = new int[SequenciaRecebidaSeparada.Length];
+
+                if (Registrado.SequenciaRecebida.Length > 0)
+                {
+                    for (int i = 0; i < SequenciaRecebidaSeparada.Length; i++)
+                    {
+                        sequenciaRecebida[i] = (int.Parse(SequenciaRecebidaSeparada[i]));
+                    }
+                }
+
+                ObterStatusViewModel sessao = new ObterStatusViewModel()
+                {
+                    Id = Registrado.Id,
+                    Fase = Registrado.Fase,
+                    SequenciaCorreta = sequenciaCorreta,
+                    SequenciaRecebida = sequenciaRecebida,
+                    Errou = Registrado.Errou,
+                    PassarDeFase = Registrado.PassarDeFase
+                };
+                return sessao;
+
+
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+
+        }
+
         public void Dispose()
         {
             _context.Dispose();
