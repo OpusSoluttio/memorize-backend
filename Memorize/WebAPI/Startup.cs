@@ -39,6 +39,12 @@ namespace WebAPI
                 });
             });
 
+            //services.AddHttpsRedirection(options =>
+            //{
+            //    options.RedirectStatusCode = StatusCodes.Status307TemporaryRedirect;
+            //    options.HttpsPort = 5001;
+            //});
+
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy",
@@ -62,6 +68,7 @@ namespace WebAPI
                 app.UseDeveloperExceptionPage();
             }
 
+            //app.UseHttpsRedirection();
             app.UseCors("CorsPolicy");
 
             app.UseMvc();

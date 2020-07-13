@@ -93,16 +93,16 @@ namespace WebAPI.Controllers
         /// </summary>
         /// <param name="adicionarNaSequencia">Recebe o número para adicionar na sequência e uma senha</param>
         /// <returns>Retorna Ok em caso de sucesso ou Bad Request em caso de erro</returns>
-        [HttpPut]
-        public IActionResult AdicionarNaSequencia(AdicionarNaSequenciaViewModel adicionarNaSequencia)
+        [HttpGet]
+        [Route("arduino/{id}")]
+        public IActionResult AdicionarNaSequencia(int id)
         {
-            if (adicionarNaSequencia.Senha != "memorizeAdd") return Unauthorized();
-
+            
             if(_sessaoRepositorio.existeSessao() == false) return BadRequest(new { sucesso = false, mensagem = "Não existe uma sessão" });
 
             try
             {
-                var resultado = _sessaoRepositorio.adicionarNaSequencia(adicionarNaSequencia.NumeroAdicionar);
+                var resultado = _sessaoRepositorio.adicionarNaSequencia(id);
                 if (resultado == true) return Ok();
                 else return BadRequest();
             }
@@ -147,12 +147,26 @@ namespace WebAPI.Controllers
 
             try
             {
-                var sessao = _sessaoRepositorio.passarFase(passarFase);
+                var sessao = _sessaoRepositorio.passarFase(passarFase);   
                 return Ok(sessao);
             }
             catch (Exception ex)
             {
                 return BadRequest(new { sucesso = false, mensagem = ex.Message });
+            }
+        }
+
+        [HttpGet]
+        [Route("teste")]
+        public IActionResult Teste([FromQuery(Name = "inf")] string inf)
+        {
+            if (inf != null)
+            {
+                return Ok(inf);
+            }
+            else
+            {
+                return BadRequest("erro");
             }
         }
 

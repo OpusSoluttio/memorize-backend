@@ -12848,6 +12848,8 @@
       "Microsoft.EntityFrameWorkCore >= 2.1.1",
       "Microsoft.EntityFrameWorkCore.Relational >= 2.1.1",
       "Microsoft.EntityFrameWorkCore.SqlServer >= 2.1.1",
+      "Microsoft.Extensions.Configuration >= 2.1.1",
+      "Microsoft.Extensions.Hosting >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.10",
       "Swashbuckle.AspNetCore >= 4.0.1"
@@ -12927,6 +12929,14 @@
           },
           "Microsoft.EntityFrameWorkCore.SqlServer": {
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
+          "Microsoft.Extensions.Configuration": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
+          "Microsoft.Extensions.Hosting": {
             "target": "Package",
             "version": "[2.1.1, )"
           },
