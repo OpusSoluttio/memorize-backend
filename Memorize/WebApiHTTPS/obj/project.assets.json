@@ -12860,11 +12860,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\WebApiHTTPS\\WebApiHTTPS.csproj",
+      "projectUniqueName": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\WebApiHTTPS\\WebApiHTTPS.csproj",
       "projectName": "WebApiHTTPS",
-      "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\WebApiHTTPS\\WebApiHTTPS.csproj",
+      "projectPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\WebApiHTTPS\\WebApiHTTPS.csproj",
       "packagesPath": "C:\\Users\\Raul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\WebApiHTTPS\\obj\\",
+      "outputPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\WebApiHTTPS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Raul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12880,8 +12880,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj"
+            "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj"
             }
           }
         }

@@ -87,7 +87,6 @@ namespace WebAPI.Controllers
             }
         }
 
-
         /// <summary>
         /// Adiciona o número recebido na sequência
         /// </summary>
@@ -104,7 +103,7 @@ namespace WebAPI.Controllers
             {
                 var resultado = _sessaoRepositorio.adicionarNaSequencia(id);
                 if (resultado == true) return Ok();
-                else return BadRequest();
+                else return BadRequest("Ocorreu um erro inesperado, verifique se a sessão não terminou.");
             }
             catch (Exception ex)
             {
@@ -138,6 +137,11 @@ namespace WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Edita os dados da sessão mantendo o ip
+        /// </summary>
+        /// <param name="passarFase">Recebe a nova sequencia, numero da nova fase e id</param>
+        /// <returns>Retorna Ok com os dados da nova sessao ou BadRequest com descrição do erro.</returns>
         [HttpPut]
         [Route("passarfase")]
         public IActionResult PassarFase(PassarFaseViewModel passarFase)
@@ -156,6 +160,11 @@ namespace WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Requisição de teste
+        /// </summary>
+        /// <param name="inf">Recebe qualquer tipo de dado</param>
+        /// <returns>Retorna ok com o que recebeu</returns>
         [HttpGet]
         [Route("teste")]
         public IActionResult Teste([FromQuery(Name = "inf")] string inf)

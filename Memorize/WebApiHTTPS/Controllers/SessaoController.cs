@@ -87,24 +87,23 @@ namespace WebAPI.Controllers
             }
         }
 
-
         /// <summary>
         /// Adiciona o número recebido na sequência
         /// </summary>
         /// <param name="adicionarNaSequencia">Recebe o número para adicionar na sequência e uma senha</param>
         /// <returns>Retorna Ok em caso de sucesso ou Bad Request em caso de erro</returns>
-        [HttpPut]
-        public IActionResult AdicionarNaSequencia(AdicionarNaSequenciaViewModel adicionarNaSequencia)
+        [HttpGet]
+        [Route("arduino/{id}")]
+        public IActionResult AdicionarNaSequencia(int id)
         {
-            if (adicionarNaSequencia.Senha != "memorizeAdd") return Unauthorized();
 
-            if(_sessaoRepositorio.existeSessao() == false) return BadRequest(new { sucesso = false, mensagem = "Não existe uma sessão" });
+            if (_sessaoRepositorio.existeSessao() == false) return BadRequest(new { sucesso = false, mensagem = "Não existe uma sessão" });
 
             try
             {
-                var resultado = _sessaoRepositorio.adicionarNaSequencia(adicionarNaSequencia.NumeroAdicionar);
+                var resultado = _sessaoRepositorio.adicionarNaSequencia(id);
                 if (resultado == true) return Ok();
-                else return BadRequest();
+                else return BadRequest("Ocorreu um erro inesperado, verifique se a sessão não terminou.");
             }
             catch (Exception ex)
             {
@@ -138,18 +137,22 @@ namespace WebAPI.Controllers
             }
         }
 
-        [HttpGet]
-        [Route("arduino/{id}")]
-        public IActionResult AdicionarNaSequencia(int id)
+        /// <summary>
+        /// Edita os dados da sessão mantendo o ip
+        /// </summary>
+        /// <param name="passarFase">Recebe a nova sequencia, numero da nova fase e id</param>
+        /// <returns>Retorna Ok com os dados da nova sessao ou BadRequest com descrição do erro.</returns>
+        [HttpPut]
+        [Route("passarfase")]
+        public IActionResult PassarFase(PassarFaseViewModel passarFase)
         {
-
+            var a = passarFase;
             if (_sessaoRepositorio.existeSessao() == false) return BadRequest(new { sucesso = false, mensagem = "Não existe uma sessão" });
 
             try
             {
-                var resultado = _sessaoRepositorio.adicionarNaSequencia(id);
-                if (resultado == true) return Ok();
-                else return BadRequest();
+                var sessao = _sessaoRepositorio.passarFase(passarFase);
+                return Ok(sessao);
             }
             catch (Exception ex)
             {
@@ -157,6 +160,11 @@ namespace WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Requisição de teste
+        /// </summary>
+        /// <param name="inf">Recebe qualquer tipo de dado</param>
+        /// <returns>Retorna ok com o que recebeu</returns>
         [HttpGet]
         [Route("teste")]
         public IActionResult Teste([FromQuery(Name = "inf")] string inf)

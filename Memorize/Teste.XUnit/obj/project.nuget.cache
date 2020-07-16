@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Deg8IufgmfQsawCbde6H8EGitg0Fbergktu48XbbU6v8i7merQet/BClmqMNCZfmeeBj5evnxCTKzaYk/TotTQ==",
+  "dgSpecHash": "GWZAuXGsqgApX7S34qO8p/srXwFYzYbIojVyfIRLx6hG1fmD01zoWd33jtYlO+ZmDOgdwUx6ne4zpKOy0rmTqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Teste.XUnit\\Teste.XUnit.csproj",
+  "projectFilePath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Teste.XUnit\\Teste.XUnit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Raul\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Raul\\.nuget\\packages\\microsoft.codecoverage\\16.2.0\\microsoft.codecoverage.16.2.0.nupkg.sha512",

@@ -770,11 +770,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj",
+      "projectUniqueName": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj",
       "projectName": "Dominios",
-      "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj",
+      "projectPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj",
       "packagesPath": "C:\\Users\\Raul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Dominios\\obj\\",
+      "outputPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Dominios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Raul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -790,8 +790,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj": {
-              "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj"
+            "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj": {
+              "projectPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj"
             }
           }
         }

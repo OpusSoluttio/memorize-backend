@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj": {
+    "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj",
+        "projectUniqueName": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj",
         "projectName": "Dominios",
-        "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj",
+        "projectPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj",
         "packagesPath": "C:\\Users\\Raul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Dominios\\obj\\",
+        "outputPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Dominios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj": {
-                "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj"
+              "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj": {
+                "projectPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj": {
+    "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj",
         "projectName": "Infra.Data",
-        "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj",
+        "projectPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj",
         "packagesPath": "C:\\Users\\Raul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Infra.Data\\obj\\",
+        "outputPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,11 +86,11 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj": {
-                "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj"
+              "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj": {
+                "projectPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj"
               },
-              "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj": {
-                "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj"
+              "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj": {
+                "projectPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj"
               }
             }
           }
@@ -153,14 +153,14 @@
         }
       }
     },
-    "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj": {
+    "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj",
+        "projectUniqueName": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj",
         "projectName": "Servicos",
-        "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj",
+        "projectPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj",
         "packagesPath": "C:\\Users\\Raul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Servicos\\obj\\",
+        "outputPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Servicos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -212,14 +212,14 @@
         }
       }
     },
-    "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Raul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -235,11 +235,11 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj": {
-                "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj"
+              "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj": {
+                "projectPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Dominios\\Dominios.csproj"
               },
-              "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj"
+              "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj"
               }
             }
           }

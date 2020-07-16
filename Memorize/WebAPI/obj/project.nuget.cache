@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jOuEnZlins8Bkp9SQm5tsV58SIm1Wd3BzgOUhWC8ZlwxH8E5HfYlR+7uCnMriYgzvHogyaL5Nz1vUOJtO/mlFg==",
+  "dgSpecHash": "EqFBta9txTVLJQn0cTbQ0wefwSRyZbLNJiiVEk4B9zD9+YvxjnWHNa4AyHT3qOYDAgW14GQHi0R0+54/+UtyYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Raul\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Raul\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

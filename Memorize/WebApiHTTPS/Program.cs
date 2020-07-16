@@ -30,6 +30,7 @@ namespace WebApiHTTPS
                 //    });
 
                 //})
+                .UseIISIntegration()
                 .UseStartup<Startup>();
     }
 }

@@ -5817,11 +5817,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Teste.XUnit\\Teste.XUnit.csproj",
+      "projectUniqueName": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Teste.XUnit\\Teste.XUnit.csproj",
       "projectName": "Teste.XUnit",
-      "projectPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Teste.XUnit\\Teste.XUnit.csproj",
+      "projectPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Teste.XUnit\\Teste.XUnit.csproj",
       "packagesPath": "C:\\Users\\Raul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Teste.XUnit\\obj\\",
+      "outputPath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Teste.XUnit\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Raul\\AppData\\Roaming\\NuGet\\NuGet.Config",

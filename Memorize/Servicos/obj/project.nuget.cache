@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T3uGy2edBdTbEY9A3W5t8Igsgs2FNAfsDHtQFJvIqV+nXpOTrKp2ABLHXxb+Ni5AyV7eISvJHYb5EZy+Le0iEA==",
+  "dgSpecHash": "5mkm5haLZR3mxVTYx0cLGCHAMy1Jm4XnMUv7LekOULg9A/bFVDByDYjrNppNAK9XrTQjzyvuxecN5rN26zjdsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj",
+  "projectFilePath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Servicos\\Servicos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Raul\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Users\\Raul\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",

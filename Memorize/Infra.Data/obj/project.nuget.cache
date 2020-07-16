@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1HDz/CH4ljcLl/S65Qlx1OSlNnTFs2wc4/fHhdEP4tw53dT4LU1RKUSMWZtcXRdR0Gki6ZRyqTtIKE8CI9fDAQ==",
+  "dgSpecHash": "UB+csRSaDH0nmphm4nqgMOEp/cU9NaR27fZSSNwQlSbhbzh47+qISrYo0VeGKuIkl/L2YjAiHJTm8NT+UJQHNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj",
+  "projectFilePath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\Infra.Data\\Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Raul\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
     "C:\\Users\\Raul\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.1.1\\microsoft.aspnetcore.authentication.2.1.1.nupkg.sha512",

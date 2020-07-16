@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/7eTb6nyqlu8LcqlCpLCgEpcWug3oL/cIZdq2alowiK9BvxSsqb9Vd2G9MCE3O8UXtw+gPIu0BUzKzuBDBOQDg==",
+  "dgSpecHash": "WuxqNQxQkrxYfq341KlowXYlC9XSEeQLAHEO0ly6Fr1c7eIh/+f+GHc1UE2RysBCg+dpaM+31JDGvrCC4JIoug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Raul\\Desktop\\OpusSoluttio\\Memorize\\WebApiHTTPS\\WebApiHTTPS.csproj",
+  "projectFilePath": "C:\\Users\\Raul\\Desktop\\SENAI\\OpusSoluttio\\Memorize\\WebApiHTTPS\\WebApiHTTPS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Raul\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Raul\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

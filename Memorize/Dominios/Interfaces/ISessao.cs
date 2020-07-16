@@ -41,7 +41,11 @@ namespace Dominios.Interfaces
         /// <returns>Retorna Ok em caso de sucesso ou Bad Request em caso de erro</returns>
         bool existeSessao();
 
-
+        /// <summary>
+        /// Método que muda os dados de uma sessao 
+        /// </summary>
+        /// <param name="passarFase">Recebe os dados que serão modificados</param>
+        /// <returns>Retorna os dados da sessão pos edicao</returns>
         ObterStatusViewModel passarFase(PassarFaseViewModel passarFase);
 
 
